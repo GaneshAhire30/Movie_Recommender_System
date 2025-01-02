@@ -1,6 +1,5 @@
 # Movie_Recommender_System
-![Movie Recommender Image](![image](https://github.com/user-attachments/assets/4dd02992-56a6-4d29-b0f8-a3a36f7dd567)
-)
+![image](https://github.com/user-attachments/assets/4dd02992-56a6-4d29-b0f8-a3a36f7dd567)
 
 ## AI PROJECT ON MOVIE RECOMMENDATION
 
@@ -52,16 +51,6 @@ This project is divided into multiple steps:
 
 ---
 
-## MODEL EVALUATION
-
-- The model is evaluated using metrics such as **Mean Squared Error (MSE)** or **Root Mean Squared Error (RMSE)** for accuracy.
-- Cross-validation is performed to validate the effectiveness of the recommendation model.
-- **Example Evaluation Results:**
-  - **RMSE (Collaborative Filtering):** 0.85
-  - **RMSE (Content-Based Filtering):** 0.78
-
----
-
 ## RECOMMENDATIONS FOR USERS
 
 - After training the model, recommendations are generated for a given user based on their ratings or preferences.
@@ -73,12 +62,12 @@ This project is divided into multiple steps:
 
 - The model is tested by evaluating the recommendation quality and comparing it to actual user ratings.
 - **Example Testing Output:**
-  - **User ID 123**: Top 5 recommended movies:
-    1. Movie A
-    2. Movie B
-    3. Movie C
-    4. Movie D
-    5. Movie E
+  - **recommend("Avatar")**: Top 5 recommended movies:
+    1. Aliens vs Predator: Requiem
+    2. Aliens
+    3. Falcon Rising
+    4. Independence Day
+    5. Titan A.E.
 
 ---
 
@@ -122,5 +111,4 @@ This project is divided into multiple steps:
 ## TOOL USED
 
 - Jupyter Notebook
-- Python 3.x " which part I change 
-manually 
+- PyCharm
